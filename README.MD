@@ -10,7 +10,7 @@ This tool is for educational and research purposes only. Unauthorized access to 
 
 ### Step 1: Clone the Repository
 ```sh
-git clone https://github.com/ezydubs/websocket-reverse-shell-controller.git
+git clone https://github.com/ezydubs/WebSocket-CnC-Controller.git
 ```
 
 ### Step 2: Open `index.html`
